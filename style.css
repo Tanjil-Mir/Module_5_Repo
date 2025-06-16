@@ -1,0 +1,12 @@
+.parent {
+  padding: 30px;
+  background-color: goldenrod;
+}
+.child {
+  border: 3px solid slateblue;
+  background: greenyellow;
+  padding: 10px 50px;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px;
+}
