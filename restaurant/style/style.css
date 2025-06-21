@@ -93,3 +93,34 @@
   text-align: center;
   opacity: 0.6;
 }
+.card-container {
+  margin-top: 48px;
+}
+.card {
+  max-width: 424px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.card .image-box {
+  width: 100%;
+}
+.card .image-box img {
+  width: 100%;
+}
+.card .shop {
+  margin-top: 12px;
+  text-align: center;
+  border-radius: 8px;
+  background: rgba(82, 195, 3, 0.15);
+  padding: 14px 32px;
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+}
