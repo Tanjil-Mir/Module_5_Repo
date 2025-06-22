@@ -97,6 +97,7 @@
   margin-top: 48px;
   display: flex;
   justify-content: space-between;
+  font-family: "Work Sans", sans-serif;
 }
 .card {
   max-width: 390px;
@@ -161,4 +162,66 @@
   margin-top: 40px;
   margin-bottom: 40px;
   background: rgb(82, 195, 3);
+  cursor: pointer;
+}
+.about-container {
+  max-width: 1920px;
+  margin-top: 60px;
+  border: 2px solid rgb(85, 228, 128);
+  border-radius: 5px;
+}
+.food-img {
+  width: 50%;
+}
+.food-img img {
+  height: 671px;
+}
+.about-box {
+  display: flex;
+}
+.about-details h1 {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 164px;
+}
+.about-details p {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-align: center;
+  opacity: 0.6;
+  margin-top: 35px;
+}
+.about-details h3 {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.6;
+  margin-top: 52px;
+  margin-bottom: 52px;
+}
+.social-icon{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  max-width: 350px;
+  margin: 0 auto;
+}
+.social-icon img {
+  width: 40px;
+  height: 40px;
+
 }
