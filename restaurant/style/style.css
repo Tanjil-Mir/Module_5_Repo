@@ -213,7 +213,7 @@
   margin-top: 52px;
   margin-bottom: 52px;
 }
-.social-icon{
+.social-icon {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
@@ -223,5 +223,55 @@
 .social-icon img {
   width: 40px;
   height: 40px;
+}
 
+/* Social container section start */
+
+#social-container {
+  background-image: url("../assets/social-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1900px;
+  height: 671px;
+  margin-top: 30px;
+}
+
+.social-box .title {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-top: 130px;
+}
+.social-box .subtitle {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.6;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(136, 136, 136, 0.63);
+}
+.social-box h3 {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 30px 0;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(136, 136, 136, 0.63);
+}
+
+.social-box .subtitle {
+  text-align: center;
 }
